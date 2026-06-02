@@ -1,0 +1,223 @@
+window.JKPG_PRODUCTS = [
+  {
+    id: "tote-archive-home-seek",
+    title: "City Archive tote — Home Seek",
+    image: "img/version%201_%20Home%20Seek.webp",
+    imageAlt:
+      "City Archive tote version 1 — Home Seek, cartographic print on natural canvas",
+    measurements_mm: "Approx. 420 x 380 mm body, strap drop approx. 280 mm",
+    measurements_cm: "Approx. 42 x 38 cm body, strap drop approx. 28 cm",
+    measurements_in: "Approx. 16,5 x 15 in body, strap drop approx. 11 in",
+    unitPriceSek: 99,
+    description:
+      "More than just a carrier, the City Archive collection is a curated series of visual stories from Jönköping. Printed on premium natural canvas, each version captures a different facet of the city’s identity—from its historic architecture to the rhythmic waves of Lake Vättern. Wear the city, your way.\n\nVersion 1 — Home Seek: A cartographic journey. For those who find their way through the familiar coordinates of home.\n\nProduct details: Material: 100% heavyweight premium cotton canvas. Design: High-definition studio prints. Fit: Oversized daily carry, perfect for laptops, books, and lakeside essentials. Single tote: 99 SEK. The full bundle (set of 4) is 350 SEK (save 46 SEK).",
+  },
+  {
+    id: "tote-archive-city-soul",
+    title: "City Archive tote — City Soul",
+    image: "img/version%202_%20City%20Soul.webp",
+    imageAlt:
+      "City Archive tote version 2 — City Soul, architectural skyline on canvas",
+    measurements_mm: "Approx. 420 x 380 mm body, strap drop approx. 280 mm",
+    measurements_cm: "Approx. 42 x 38 cm body, strap drop approx. 28 cm",
+    measurements_in: "Approx. 16,5 x 15 in body, strap drop approx. 11 in",
+    unitPriceSek: 99,
+    description:
+      "More than just a carrier, the City Archive collection is a curated series of visual stories from Jönköping. Printed on premium natural canvas, each version captures a different facet of the city’s identity—from its historic architecture to the rhythmic waves of Lake Vättern. Wear the city, your way.\n\nVersion 2 — City Soul: An architectural silhouette. Clean, timeless, and deeply rooted in the city’s iconic skyline.\n\nProduct details: Material: 100% heavyweight premium cotton canvas. Design: High-definition studio prints. Fit: Oversized daily carry, perfect for laptops, books, and lakeside essentials. Single tote: 99 SEK. The full bundle (set of 4) is 350 SEK (save 46 SEK).",
+  },
+  {
+    id: "tote-archive-scenery-script",
+    title: "City Archive tote — The Scenery Script",
+    image: "img/version%203_%20The%20Scenery%20Script.webp",
+    imageAlt:
+      "City Archive tote version 3 — The Scenery Script, harbor sketch with script",
+    measurements_mm: "Approx. 420 x 380 mm body, strap drop approx. 280 mm",
+    measurements_cm: "Approx. 42 x 38 cm body, strap drop approx. 28 cm",
+    measurements_in: "Approx. 16,5 x 15 in body, strap drop approx. 11 in",
+    unitPriceSek: 99,
+    description:
+      "More than just a carrier, the City Archive collection is a curated series of visual stories from Jönköping. Printed on premium natural canvas, each version captures a different facet of the city’s identity—from its historic architecture to the rhythmic waves of Lake Vättern. Wear the city, your way.\n\nVersion 3 — The Scenery Script: Where fine art meets typography. A romantic sketch of the harbor framed by an elegant script.\n\nProduct details: Material: 100% heavyweight premium cotton canvas. Design: High-definition studio prints. Fit: Oversized daily carry, perfect for laptops, books, and lakeside essentials. Single tote: 99 SEK. The full bundle (set of 4) is 350 SEK (save 46 SEK).",
+  },
+  {
+    id: "tote-archive-vattern-waves",
+    title: "City Archive tote — Vättern Waves (silhouette)",
+    image: "img/version%204_%20V%C3%A4ttern%20Waves%20Silhouette.webp",
+    imageAlt:
+      "City Archive tote version 4 — Vättern Waves silhouette, painterly water view",
+    measurements_mm: "Approx. 420 x 380 mm body, strap drop approx. 280 mm",
+    measurements_cm: "Approx. 42 x 38 cm body, strap drop approx. 28 cm",
+    measurements_in: "Approx. 16,5 x 15 in body, strap drop approx. 11 in",
+    unitPriceSek: 99,
+    description:
+      "More than just a carrier, the City Archive collection is a curated series of visual stories from Jönköping. Printed on premium natural canvas, each version captures a different facet of the city’s identity—from its historic architecture to the rhythmic waves of Lake Vättern. Wear the city, your way.\n\nVersion 4 — Vättern Waves: A vibrant tribute to the water. Capturing the blue soul of the city in a painterly, panoramic silhouette.\n\nProduct details: Material: 100% heavyweight premium cotton canvas. Design: High-definition studio prints. Fit: Oversized daily carry, perfect for laptops, books, and lakeside essentials. Single tote: 99 SEK. The full bundle (set of 4) is 350 SEK (save 46 SEK).",
+  },
+  {
+    id: "tote-archive-bundle-full",
+    title: "City Archive — Full bundle (set of 4)",
+    image: "img/thumbnail_%20TOTE%20BUNDLES.webp",
+    imageAlt: "Tote bundles — City Archive collection, all four canvas designs",
+    measurements_mm: "Four totes, each approx. 420 x 380 mm body",
+    measurements_cm: "Four totes, each approx. 42 x 38 cm body",
+    measurements_in: "Four totes, each approx. 16,5 x 15 in body",
+    unitPriceSek: 350,
+    description:
+      "Tote bundles: The City Archive collection. More than just a carrier, this is a curated series of visual stories from Jönköping. Printed on premium natural canvas, each version captures a different facet of the city’s identity—from its historic architecture to the rhythmic waves of Lake Vättern. Wear the city, your way.\n\nVersion 1 — Home Seek: A cartographic journey. Version 2 — City Soul: An architectural silhouette. Version 3 — The Scenery Script: Fine art meets typography—a romantic sketch of the harbor framed by elegant script. Version 4 — Vättern Waves: A vibrant tribute to the water in a painterly, panoramic view.\n\nProduct details: Material: 100% heavyweight premium cotton canvas. Design: High-definition studio prints. Fit: Oversized daily carry, perfect for laptops, books, and lakeside essentials.\n\nPricing: Single tote 99 SEK. The full bundle (set of 4): 350 SEK — save 46 SEK.",
+  },
+  {
+    id: "scarf-linear",
+    title: "Scarf — The Linear",
+    image: "img/scarf_%20THE%20LINEAR.webp",
+    imageAlt:
+      "Scarf — The Linear, minimalist Jönköping typography on studio white",
+    measurements_mm: "Approx. 1800 x 700 mm",
+    measurements_cm: "Approx. 180 x 70 cm",
+    measurements_in: "Approx. 70,9 x 27,6 in",
+    unitPriceSek: 119,
+    description:
+      "Scarf: The Linear. “Jönköping.” One word, one statement. The Linear scarf is an exercise in minimalist typography. Designed for those who appreciate the power of simplicity, this piece uses bold, horizontal script to transform a city’s name into a modern design element. It is the perfect companion for a breezy afternoon at Piren or a quiet morning fika.\n\nProduct details: Fabric: Ultra-soft Studio Blend (designed for comfort and a graceful drape). Colorway: Studio White with Pitch Black lettering. Versatility: Long-form design for various styling options—from the classic wrap to a relaxed shoulder drape. Price: 119 SEK.",
+  },
+  {
+    id: "stamp-sticker-set",
+    title: "Stamp stickers set — The Visual Diary",
+    image: "img/Stamp%20stickers%20set_%20THE%20VISUAL%20DIARY.webp",
+    imageAlt: "Stamp stickers set — The Visual Diary, JKPG icons and lettering",
+    measurements_mm: "Sheet approx. 210 x 148 mm",
+    measurements_cm: "Sheet approx. 21 x 14,8 cm",
+    measurements_in: "Sheet approx. 8,3 x 5,8 in",
+    unitPriceSek: 45,
+    description:
+      "Stamp stickers set — The Visual Diary. Mix and match icons and lettering from the JKPG archive: a pocket-sized diary of marks for journals, laptops, and gift wrap. 45 SEK.",
+  },
+  {
+    id: "keyring-036",
+    title: "Keyring 036 — Keytag",
+    image: "img/keyring_%20_036_%20KEYTAG.webp",
+    imageAlt: "Keyring 036 — Keytag, compact studio hardware",
+    measurements_mm: "Charm approx. 35 mm diameter, ring 25 mm",
+    measurements_cm: "Charm approx. 3,5 cm diameter, ring 2,5 cm",
+    measurements_in: "Charm approx. 1,4 in diameter, ring 1 in",
+    unitPriceSek: 45,
+    description:
+      "Keyring 036 — Keytag. Compact studio hardware with engraved detail for everyday carry from Jönköping. 45 SEK.",
+  },
+  {
+    id: "the-coaster",
+    title: "The coaster — The Fika Base",
+    image: "img/the%20coaster_%20THE%20FIKA%20BASE.webp",
+    imageAlt: "The coaster — The Fika Base, studio surface for cups",
+    measurements_mm: "Approx. 100 x 100 x 5 mm",
+    measurements_cm: "Approx. 10 x 10 x 0,5 cm",
+    measurements_in: "Approx. 3,9 x 3,9 x 0,2 in",
+    unitPriceSek: 49,
+    description:
+      "The coaster — The Fika Base. Absorbent studio surface with a soft matte finish—made for long fika sessions. 49 SEK.",
+  },
+  {
+    id: "wristband",
+    title: "Woven wristband — Lake & Soul",
+    image: "img/woven%20wristband_%20LAKE%26SOUL.webp",
+    imageAlt: "Woven wristband — Lake & Soul, Lake and Soul lettering",
+    measurements_mm: "One size, approx. 240 x 20 mm flat",
+    measurements_cm: "One size, approx. 24 x 2 cm flat",
+    measurements_in: "One size, approx. 9,4 x 0,8 in flat",
+    unitPriceSek: 54,
+    description:
+      "Woven wristband — Lake & Soul. Woven studio band with debossed lettering—easy at festivals and for everyday wear. 54 SEK.",
+  },
+  {
+    id: "fridge-magnet",
+    title: "Fridge magnet — Tiny Tändsticka",
+    image: "img/the%20fridge%20magnet_%20TINY%20T%C3%84NDSTICKA.webp",
+    imageAlt: "Fridge magnet — Tiny Tändsticka, full-color studio print",
+    measurements_mm: "Approx. 80 x 55 x 4 mm",
+    measurements_cm: "Approx. 8 x 5,5 x 0,4 cm",
+    measurements_in: "Approx. 3,1 x 2,2 x 0,16 in",
+    unitPriceSek: 68,
+    description:
+      "Fridge magnet — Tiny Tändsticka. Full-color studio print on a strong ceramic magnet back. 68 SEK.",
+  },
+  {
+    id: "keyring-set",
+    title: "Keyring set — The Matchstick Town",
+    image: "img/keyring%20set_%20THE%20MATCHSTICK%20TOWN.webp",
+    imageAlt: "Keyring set — The Matchstick Town, three charms in a pouch",
+    measurements_mm: "Set of 3 charms, pouch 120 x 90 mm",
+    measurements_cm: "Set of 3 charms, pouch 12 x 9 cm",
+    measurements_in: "Set of 3 charms, pouch 4,7 x 3,5 in",
+    unitPriceSek: 74,
+    description:
+      "Keyring set — The Matchstick Town. Three coordinated studio charms in a cotton pouch—gift-ready. 74 SEK.",
+  },
+  {
+    id: "candy-box",
+    title: "Candy box — Gränna Pieces",
+    image: "img/candy%20box_%20GR%C3%84NNA%20PIECES.webp",
+    imageAlt: "Candy box — Gränna Pieces, studio packaging with local sweets",
+    measurements_mm: "Box approx. 110 x 85 x 45 mm",
+    measurements_cm: "Box approx. 11 x 8,5 x 4,5 cm",
+    measurements_in: "Box approx. 4,3 x 3,3 x 1,8 in",
+    unitPriceSek: 85,
+    description:
+      "Candy box — Gränna Pieces. Limited studio packaging with local sweets—a friendly souvenir from Jönköping. 85 SEK.",
+  },
+  {
+    id: "scented-candle",
+    title: "Scented candles — The Hyggelig",
+    image: "img/scented%20candles_%20THE%20HYGGELIG.webp",
+    imageAlt: "Scented candles — The Hyggelig, glass jar candle",
+    measurements_mm: "Jar approx. 85 mm diameter x 100 mm",
+    measurements_cm: "Jar approx. 8,5 cm diameter x 10 cm",
+    measurements_in: "Jar approx. 3,3 in diameter x 3,9 in",
+    unitPriceSek: 89,
+    description:
+      "Scented candles — The Hyggelig. Studio Blend wax with a clean cotton wick—warm notes inspired by lakeside evenings. 89 SEK.",
+  },
+  {
+    id: "artprint",
+    title: "Artprint — The Vättern Mist",
+    image: "img/1.webp",
+    imageAlt: "Artprint — The Vättern Mist, A3 archival wall piece",
+    measurements_mm: "Print area 297 x 420 mm (A3)",
+    measurements_cm: "Print area 29,7 x 42 cm (A3)",
+    measurements_in: "Print area 11,7 x 16,5 in (A3)",
+    unitPriceSek: 129,
+    description:
+      "Artprint — The Vättern Mist. Archival matte paper, A3—signed open edition from the JKPG Studio wall series. 129 SEK.",
+  },
+  {
+    id: "t-shirt",
+    title: "T-shirt — The Vättervinden",
+    image: "img/T-shirt_%20The%20V%C3%A4ttervinden.webp",
+    imageAlt: "T-shirt — The Vättervinden, screen-printed studio mark",
+    measurements_mm: "Unisex fit; see size chart in studio",
+    measurements_cm: "Unisex fit; see size chart in studio",
+    measurements_in: "Unisex fit; see size chart in studio",
+    unitPriceSek: 229,
+    description:
+      "T-shirt — The Vättervinden. Midweight organic cotton with a screen-printed studio mark. Unisex sizing. 229 SEK.",
+  },
+  {
+    id: "hoodie",
+    title: "Hoodie — The Linear",
+    image: "img/hoodie_%20THE%20LINEAR.webp",
+    imageAlt: "Hoodie — The Linear, brushed fleece with tonal studio mark",
+    measurements_mm: "Unisex fit; see size chart in studio",
+    measurements_cm: "Unisex fit; see size chart in studio",
+    measurements_in: "Unisex fit; see size chart in studio",
+    unitPriceSek: 349,
+    description:
+      "Hoodie — The Linear. Brushed fleece interior, double-lined hood, and tonal studio embroidery in The Linear line. 349 SEK.",
+  },
+  {
+    id: "wall-painting-canvas",
+    title: "Wall painting — The Stilla",
+    image: "img/wall%20painting_%20THE%20STILLA.webp",
+    imageAlt: "Wall painting — The Stilla, fine art canvas, gallery-wrapped",
+    measurements_mm: "Canvas approx. 900 x 600 mm",
+    measurements_cm: "Canvas approx. 90 x 60 cm",
+    measurements_in: "Canvas approx. 35,4 x 23,6 in",
+    unitPriceSek: 689,
+    description:
+      "Wall painting — The Stilla. Fine art canvas with gallery-wrapped edges, UV-stable inks, ready to hang—statement scale for home or studio walls. 689 SEK.",
+  },
+];

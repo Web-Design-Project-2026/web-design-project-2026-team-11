@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Events — JKPG Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Unbounded:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-events">
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-header__brand" href="index.html" aria-label="JKPG Studio home">
+          <img
+            class="site-header__logo"
+            src="logo.svg"
+            width="204"
+            height="68"
+            alt="JKPG Studio"
+          />
+        </a>
+        <button
+          type="button"
+          class="site-header__menu-toggle"
+          id="site-header-toggle"
+          aria-expanded="false"
+          aria-controls="site-header-panel"
+        >
+          <i data-feather="menu" aria-hidden="true"></i>
+          <span class="visually-hidden">Open menu</span>
+        </button>
+        <div class="site-header__panel" id="site-header-panel">
+          <div class="site-header__backdrop" id="site-header-backdrop" aria-hidden="true"></div>
+          <nav class="site-header__nav" aria-label="Primary">
+            <button
+              type="button"
+              class="site-header__nav-close"
+              id="site-header-close"
+              aria-label="Close menu"
+            >
+              <i data-feather="x" aria-hidden="true"></i>
+            </button>
+            <ul class="site-header__links">
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a class="site-header__link--pill" href="contact.html">Contact</a></li>
+            </ul>
+            <search class="site-header__search" aria-label="Search the site">
+              <span class="visually-hidden">Search</span>
+              <i data-feather="search" aria-hidden="true"></i>
+              <input type="search" name="q" placeholder="Search" autocomplete="off" />
+            </search>
+            <a class="site-header__cart" href="cart.html" aria-label="Shopping cart">
+              <i data-feather="shopping-cart" aria-hidden="true"></i>
+              <span id="cart-count">0</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="events-page-hero" aria-labelledby="events-page-title">
+        <div class="events-page-hero__text">
+          <h1 class="events-page-hero__title" id="events-page-title">Events</h1>
+          <p class="events-page-hero__intro">
+            Join us for openings, pop-ups, and seasonal evenings in Jönköping. Here you will find
+            dates for studio previews, collaborations with local makers, and the occasional walk
+            or talk by the water—always tied to the city we design for.
+          </p>
+        </div>
+        <div class="events-page-hero__media">
+          <img
+            src="https://images.unsplash.com/photo-1545984095-f9fe30a95a8b?w=1400&q=80"
+            width="1400"
+            height="900"
+            alt="Visitors viewing artwork in a bright gallery"
+            loading="eager"
+          />
+        </div>
+      </section>
+
+      <section class="events-page-schedule" aria-labelledby="calendar-heading">
+        <h2 id="calendar-heading" class="visually-hidden">Event calendar</h2>
+        <div class="events-calendar">
+          <aside class="events-calendar__sidebar">
+            <h2 class="events-calendar__month">January</h2>
+            <table class="mini-cal">
+              <thead>
+                <tr>
+                  <th scope="col">Mo</th>
+                  <th scope="col">Tu</th>
+                  <th scope="col">We</th>
+                  <th scope="col">Th</th>
+                  <th scope="col">Fr</th>
+                  <th scope="col">Sa</th>
+                  <th scope="col">Su</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>1</td>
+                  <td>2</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>18</td>
+                  <td>19</td>
+                  <td>20</td>
+                  <td>21</td>
+                  <td>22</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <td>24</td>
+                  <td>25</td>
+                  <td>26</td>
+                  <td>27</td>
+                  <td>28</td>
+                  <td>29</td>
+                  <td>30</td>
+                </tr>
+                <tr>
+                  <td>31</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="events-calendar__upcoming">
+              <h3>Upcoming events</h3>
+              <p class="events-calendar__empty">
+                <span class="events-calendar__empty-icon" role="img" aria-label="Celebration"
+                  >&#127881;</span
+                >
+                <span>no upcoming events</span>
+              </p>
+            </div>
+          </aside>
+
+          <div class="events-calendar__main">
+            <div class="events-calendar__toolbar">
+              <span class="events-calendar__range">01–07 January 2022</span>
+              <div class="events-calendar__toolbar-actions">
+                <button class="events-calendar__view-btn" type="button">
+                  Week
+                  <i data-feather="chevron-down" aria-hidden="true"></i>
+                </button>
+                <button class="events-calendar__icon-btn" type="button" aria-label="Search">
+                  <i data-feather="search" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="events-week" role="grid" aria-label="Week of 1 to 7 January 2022">
+              <div class="events-week__corner" aria-hidden="true"></div>
+              <div class="events-week__head" role="columnheader">Mon</div>
+              <div class="events-week__head" role="columnheader">Tue</div>
+              <div class="events-week__head" role="columnheader">Wed</div>
+              <div class="events-week__head" role="columnheader">Thur</div>
+              <div class="events-week__head" role="columnheader">Fri</div>
+              <div class="events-week__head events-week__head--weekend" role="columnheader">
+                Sat
+              </div>
+              <div class="events-week__head events-week__head--weekend" role="columnheader">
+                Sun
+              </div>
+
+              <div class="events-week__time" role="rowheader">00:00</div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot events-week__slot--weekend" role="gridcell"></div>
+              <div class="events-week__slot events-week__slot--weekend" role="gridcell"></div>
+
+              <div class="events-week__time" role="rowheader">04:00</div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot events-week__slot--weekend" role="gridcell"></div>
+              <div class="events-week__slot events-week__slot--weekend" role="gridcell"></div>
+
+              <div class="events-week__time" role="rowheader">08:00</div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot events-week__slot--weekend" role="gridcell"></div>
+              <div class="events-week__slot events-week__slot--weekend" role="gridcell"></div>
+
+              <div class="events-week__time" role="rowheader">12:00</div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot events-week__slot--weekend" role="gridcell"></div>
+              <div class="events-week__slot events-week__slot--weekend" role="gridcell"></div>
+
+              <div class="events-week__time" role="rowheader">16:00</div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot events-week__slot--weekend" role="gridcell"></div>
+              <div class="events-week__slot events-week__slot--weekend" role="gridcell"></div>
+
+              <div class="events-week__time" role="rowheader">20:00</div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot" role="gridcell"></div>
+              <div class="events-week__slot events-week__slot--weekend" role="gridcell"></div>
+              <div class="events-week__slot events-week__slot--weekend" role="gridcell"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer site-footer--inverse" id="contact">
+      <div class="site-footer__inner">
+        <div class="site-footer__columns">
+          <nav aria-label="Company">
+            <h2>Company</h2>
+            <ul>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="Products">
+            <h2>Products</h2>
+            <ul>
+              <li><a href="products.html">All products</a></li>
+              <li><a href="category.html?category=city-archive">City archive</a></li>
+              <li><a href="category.html?category=studio">Studio goods</a></li>
+              <li><a href="category.html?category=wear-wall">Wear &amp; wall</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="Services">
+            <h2>Services</h2>
+            <ul>
+              <li><a href="#">Custom prints</a></li>
+              <li><a href="#">Custom paintings</a></li>
+              <li><a href="#">B2B custom orders</a></li>
+            </ul>
+          </nav>
+          <div class="site-footer__contact">
+            <h2>Contact us</h2>
+            <p><a href="mailto:jkpg@studio.se">jkpg@studio.se</a></p>
+            <p><a href="tel:+11111111111">+111-111-111</a></p>
+            <p>Random Street, 30 555, Jönköping</p>
+          </div>
+        </div>
+        <div class="site-footer__bottom">
+          <div class="site-footer__social">
+            <h2>Follow us</h2>
+            <div class="site-footer__social-links">
+              <a href="#" aria-label="Instagram">
+                <i data-feather="instagram" aria-hidden="true"></i>
+              </a>
+              <a href="#" aria-label="Facebook">
+                <i data-feather="facebook" aria-hidden="true"></i>
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                <i data-feather="linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/feather-icons@4.29.0/dist/feather.min.js"></script>
+    <script>
+      feather.replace({ width: "1.25em", height: "1.25em" });
+    </script>
+    <script src="js/header-menu.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>

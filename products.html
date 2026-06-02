@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Our products — JKPG Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Unbounded:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-products">
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a
+          class="site-header__brand"
+          href="index.html"
+          aria-label="JKPG Studio home"
+        >
+          <img
+            class="site-header__logo"
+            src="logo.svg"
+            width="204"
+            height="68"
+            alt="JKPG Studio"
+          />
+        </a>
+        <button
+          type="button"
+          class="site-header__menu-toggle"
+          id="site-header-toggle"
+          aria-expanded="false"
+          aria-controls="site-header-panel"
+        >
+          <i data-feather="menu" aria-hidden="true"></i>
+          <span class="visually-hidden">Open menu</span>
+        </button>
+        <div class="site-header__panel" id="site-header-panel">
+          <div
+            class="site-header__backdrop"
+            id="site-header-backdrop"
+            aria-hidden="true"
+          ></div>
+          <nav class="site-header__nav" aria-label="Primary">
+            <button
+              type="button"
+              class="site-header__nav-close"
+              id="site-header-close"
+              aria-label="Close menu"
+            >
+              <i data-feather="x" aria-hidden="true"></i>
+            </button>
+            <ul class="site-header__links">
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li>
+                <a class="site-header__link--pill" href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <search class="site-header__search" aria-label="Search the site">
+              <span class="visually-hidden">Search</span>
+              <i data-feather="search" aria-hidden="true"></i>
+              <input
+                type="search"
+                name="q"
+                placeholder="Search"
+                autocomplete="off"
+              />
+            </search>
+            <a
+              class="site-header__cart"
+              href="cart.html"
+              aria-label="Shopping cart"
+            >
+              <i data-feather="shopping-cart" aria-hidden="true"></i>
+              <span id="cart-count">0</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <header class="page-hero">
+        <h1 class="page-hero__title">Our products</h1>
+      </header>
+
+      <section class="catalog-section" aria-labelledby="featured-heading">
+        <div class="catalog-section__head">
+          <h2 class="catalog-section__title" id="featured-heading">Featured</h2>
+          <a class="cta" href="category.html?category=featured">
+            See more
+            <i data-feather="arrow-up-right" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="product-grid product-grid--portrait" role="list">
+          <figure class="product-card" role="listitem">
+            <a
+              class="product-card__link"
+              href="product.html?id=tote-archive-bundle-full"
+            >
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/thumbnail_%20TOTE%20BUNDLES.webp"
+                  width="600"
+                  height="800"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                City Archive bundle
+              </figcaption>
+            </a>
+          </figure>
+          <figure class="product-card" role="listitem">
+            <a class="product-card__link" href="product.html?id=scarf-linear">
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/scarf_%20THE%20LINEAR.webp"
+                  width="600"
+                  height="800"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                Scarf — The Linear
+              </figcaption>
+            </a>
+          </figure>
+          <figure class="product-card" role="listitem">
+            <a class="product-card__link" href="product.html?id=artprint">
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/1.webp"
+                  width="600"
+                  height="800"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                Artprint — The Vättern Mist
+              </figcaption>
+            </a>
+          </figure>
+          <figure class="product-card" role="listitem">
+            <a class="product-card__link" href="product.html?id=hoodie">
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/hoodie_%20THE%20LINEAR.webp"
+                  width="600"
+                  height="800"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                Hoodie — The Linear
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+      </section>
+
+      <section class="catalog-section" aria-labelledby="city-archive-heading">
+        <div class="catalog-section__head">
+          <h2 class="catalog-section__title" id="city-archive-heading">
+            City archive
+          </h2>
+          <a class="cta" href="category.html?category=city-archive">
+            See more
+            <i data-feather="arrow-up-right" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="product-grid product-grid--portrait" role="list">
+          <figure class="product-card" role="listitem">
+            <a
+              class="product-card__link"
+              href="product.html?id=tote-archive-home-seek"
+            >
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/version%201_%20Home%20Seek.webp"
+                  width="600"
+                  height="800"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                Home Seek tote
+              </figcaption>
+            </a>
+          </figure>
+          <figure class="product-card" role="listitem">
+            <a
+              class="product-card__link"
+              href="product.html?id=tote-archive-city-soul"
+            >
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/version%202_%20City%20Soul.webp"
+                  width="600"
+                  height="800"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                City Soul tote
+              </figcaption>
+            </a>
+          </figure>
+          <figure class="product-card" role="listitem">
+            <a
+              class="product-card__link"
+              href="product.html?id=tote-archive-scenery-script"
+            >
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/version%203_%20The%20Scenery%20Script.webp"
+                  width="600"
+                  height="800"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                The Scenery Script tote
+              </figcaption>
+            </a>
+          </figure>
+          <figure class="product-card" role="listitem">
+            <a
+              class="product-card__link"
+              href="product.html?id=tote-archive-vattern-waves"
+            >
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/version%204_%20V%C3%A4ttern%20Waves%20Silhouette.webp"
+                  width="600"
+                  height="800"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                Vättern Waves (silhouette)
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+      </section>
+
+      <section class="catalog-section" aria-labelledby="studio-heading">
+        <div class="catalog-section__head">
+          <h2 class="catalog-section__title" id="studio-heading">
+            Studio goods
+          </h2>
+          <a class="cta" href="category.html?category=studio">
+            See more
+            <i data-feather="arrow-up-right" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="product-grid product-grid--portrait" role="list">
+          <figure class="product-card" role="listitem">
+            <a
+              class="product-card__link"
+              href="product.html?id=stamp-sticker-set"
+            >
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/Stamp%20stickers%20set_%20THE%20VISUAL%20DIARY.webp"
+                  width="600"
+                  height="800"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                Stamp stickers — The Visual Diary
+              </figcaption>
+            </a>
+          </figure>
+          <figure class="product-card" role="listitem">
+            <a class="product-card__link" href="product.html?id=keyring-036">
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/keyring_%20_036_%20KEYTAG.webp"
+                  width="600"
+                  height="800"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                Keyring 036 — Keytag
+              </figcaption>
+            </a>
+          </figure>
+          <figure class="product-card" role="listitem">
+            <a class="product-card__link" href="product.html?id=the-coaster">
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/the%20coaster_%20THE%20FIKA%20BASE.webp"
+                  width="600"
+                  height="800"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                The coaster — The Fika Base
+              </figcaption>
+            </a>
+          </figure>
+          <figure class="product-card" role="listitem">
+            <a class="product-card__link" href="product.html?id=wristband">
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/woven%20wristband_%20LAKE%26SOUL.webp"
+                  width="600"
+                  height="800"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                Woven wristband — Lake &amp; Soul
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+      </section>
+
+      <section class="catalog-section" aria-labelledby="wear-wall-heading">
+        <div class="catalog-section__head">
+          <h2 class="catalog-section__title" id="wear-wall-heading">
+            Wear &amp; wall
+          </h2>
+          <a class="cta" href="category.html?category=wear-wall">
+            See more
+            <i data-feather="arrow-up-right" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="product-grid product-grid--landscape" role="list">
+          <figure class="product-card product-card--landscape" role="listitem">
+            <a class="product-card__link" href="product.html?id=t-shirt">
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/T-shirt_%20The%20V%C3%A4ttervinden.webp"
+                  width="800"
+                  height="600"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                T-shirt — The Vättervinden
+              </figcaption>
+            </a>
+          </figure>
+          <figure class="product-card product-card--landscape" role="listitem">
+            <a class="product-card__link" href="product.html?id=hoodie">
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/hoodie_%20THE%20LINEAR.webp"
+                  width="800"
+                  height="600"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                Hoodie — The Linear
+              </figcaption>
+            </a>
+          </figure>
+          <figure class="product-card product-card--landscape" role="listitem">
+            <a class="product-card__link" href="product.html?id=scarf-linear">
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/scarf_%20THE%20LINEAR.webp"
+                  width="800"
+                  height="600"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                Scarf — The Linear
+              </figcaption>
+            </a>
+          </figure>
+          <figure class="product-card product-card--landscape" role="listitem">
+            <a
+              class="product-card__link"
+              href="product.html?id=wall-painting-canvas"
+            >
+              <div class="product-card__frame product-card__frame--print">
+                <img
+                  src="img/wall%20painting_%20THE%20STILLA.webp"
+                  width="800"
+                  height="600"
+                  alt=""
+                  loading="lazy"
+                />
+                <div class="product-card__overlay" aria-hidden="true">
+                  <span class="product-card__buy">
+                    <span class="product-card__buy-text">BUY</span>
+                    <i data-feather="arrow-up-right" aria-hidden="true"></i>
+                  </span>
+                </div>
+              </div>
+              <figcaption class="product-card__caption">
+                Wall painting — The Stilla
+              </figcaption>
+            </a>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="site-footer__inner">
+        <div class="site-footer__columns">
+          <nav aria-label="Company">
+            <h2>Company</h2>
+            <ul>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="Products">
+            <h2>Products</h2>
+            <ul>
+              <li>
+                <a href="category.html?category=city-archive">City archive</a>
+              </li>
+              <li><a href="category.html?category=studio">Studio goods</a></li>
+              <li>
+                <a href="category.html?category=wear-wall">Wear &amp; wall</a>
+              </li>
+              <li><a href="category.html?category=featured">Featured</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="Services">
+            <h2>Services</h2>
+            <ul>
+              <li><a href="#">Custom prints</a></li>
+              <li><a href="#">Custom paintings</a></li>
+              <li><a href="#">B2B custom orders</a></li>
+            </ul>
+          </nav>
+          <div class="site-footer__contact">
+            <h2>Contact us</h2>
+            <p><a href="mailto:jkpg@studio.se">jkpg@studio.se</a></p>
+            <p><a href="tel:+11111111111">+111-111-111</a></p>
+            <p>Random Street, 30 555, Jönköping</p>
+          </div>
+        </div>
+        <div class="site-footer__bottom">
+          <div class="site-footer__social">
+            <h2>Follow us</h2>
+            <div class="site-footer__social-links">
+              <a href="#" aria-label="Instagram">
+                <i data-feather="instagram" aria-hidden="true"></i>
+              </a>
+              <a href="#" aria-label="Facebook">
+                <i data-feather="facebook" aria-hidden="true"></i>
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                <i data-feather="linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/feather-icons@4.29.0/dist/feather.min.js"></script>
+    <script>
+      feather.replace({ width: "1.25em", height: "1.25em" });
+    </script>
+    <script src="js/header-menu.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>
