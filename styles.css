@@ -40,7 +40,6 @@
   --max-width: 72rem;
   --header-height: 5.25rem;
 
-  /* Responsive: mobile < --bp-tablet | tablet --bp-tablet .. calc(--bp-desktop - 0.01) | desktop ≥ --bp-desktop */
   --bp-tablet: 48rem;
   --bp-desktop: 64rem;
 
@@ -298,7 +297,8 @@ button {
   align-items: center;
   justify-content: center;
   gap: var(--space-xl);
-  padding: calc(var(--header-height) + var(--space-lg)) var(--space-lg) var(--space-2xl);
+  padding: calc(var(--header-height) + var(--space-lg)) var(--space-lg)
+    var(--space-2xl);
   background: rgba(0, 0, 0, 0.78);
   overflow-y: auto;
   opacity: 0;
@@ -543,7 +543,6 @@ button {
   background: color-mix(in srgb, var(--color-surface) 92%, transparent);
 }
 
-
 main {
   display: block;
   flex: 1 0 auto;
@@ -581,7 +580,8 @@ main {
   background-color: color-mix(in srgb, var(--color-surface) 88%, transparent);
 }
 
-.page-home .site-header:not(.site-header--scrolled):not(.site-header--nav-open)
+.page-home
+  .site-header:not(.site-header--scrolled):not(.site-header--nav-open)
   .site-header__search {
   background: color-mix(in srgb, var(--color-search-bg) 82%, transparent);
   backdrop-filter: blur(8px);
@@ -2408,7 +2408,6 @@ main {
   border-color: var(--color-text);
 }
 
-/* Mobile header: nav hidden behind burger (below 48rem / --bp-tablet) */
 @media (max-width: 47.99rem) {
   .site-header__inner {
     padding-left: var(--space-md);

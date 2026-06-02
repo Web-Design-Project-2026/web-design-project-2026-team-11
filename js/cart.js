@@ -14,14 +14,12 @@
     }
   }
 
-  //updates the cart count label in header- copied from another code, change names of words
-  // Updates the cart count label in header
   function updateCartCount() {
     var countEl = document.getElementById("cart-count");
     if (countEl) {
-      var items = readCart(); // Grabs the current items array
+      var items = readCart();
       var totalItems = items.reduce(function (sum, item) {
-        return sum + (item.qty || 0); // Adds up the quantities
+        return sum + (item.qty || 0);
       }, 0);
       countEl.textContent = totalItems;
     }
@@ -227,11 +225,10 @@
     if (typeof feather !== "undefined") feather.replace();
   }
 
-  //NEW CODE, REPLACES THE OLD ONE
   function initializeCart() {
-    updateCartCount(); // Runs on every page to keep header correct
+    updateCartCount();
     if (document.getElementById("cart-lines-list")) {
-      renderCartPage(); // Only builds the full list if we are on the cart page
+      renderCartPage();
     }
   }
 
@@ -240,13 +237,4 @@
   } else {
     initializeCart();
   }
-
-  //OLD CODE BELOW, KEPT FOR REFERENCE, DELETE LATER
-  // if (document.getElementById("cart-lines-list")) {
-  //   if (document.readyState === "loading") {
-  //     document.addEventListener("DOMContentLoaded", renderCartPage);
-  //   } else {
-  //     renderCartPage();
-  //   }
-  // }
 })();
