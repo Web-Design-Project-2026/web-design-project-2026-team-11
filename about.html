@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About us — JKPG Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Unbounded:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page-about">
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a
+          class="site-header__brand"
+          href="index.html"
+          aria-label="JKPG Studio home"
+        >
+          <img
+            class="site-header__logo"
+            src="logo.svg"
+            width="204"
+            height="68"
+            alt="JKPG Studio"
+          />
+        </a>
+        <button
+          type="button"
+          class="site-header__menu-toggle"
+          id="site-header-toggle"
+          aria-expanded="false"
+          aria-controls="site-header-panel"
+        >
+          <i data-feather="menu" aria-hidden="true"></i>
+          <span class="visually-hidden">Open menu</span>
+        </button>
+        <div class="site-header__panel" id="site-header-panel">
+          <div
+            class="site-header__backdrop"
+            id="site-header-backdrop"
+            aria-hidden="true"
+          ></div>
+          <nav class="site-header__nav" aria-label="Primary">
+            <button
+              type="button"
+              class="site-header__nav-close"
+              id="site-header-close"
+              aria-label="Close menu"
+            >
+              <i data-feather="x" aria-hidden="true"></i>
+            </button>
+            <ul class="site-header__links">
+              <li><a href="products.html">Products</a></li>
+              <li><a href="about.html" aria-current="page">About us</a></li>
+              <li>
+                <a class="site-header__link--pill" href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <search class="site-header__search" aria-label="Search the site">
+              <span class="visually-hidden">Search</span>
+              <i data-feather="search" aria-hidden="true"></i>
+              <input
+                type="search"
+                name="q"
+                placeholder="Search"
+                autocomplete="off"
+              />
+            </search>
+            <a
+              class="site-header__cart"
+              href="cart.html"
+              aria-label="Shopping cart"
+            >
+              <i data-feather="shopping-cart" aria-hidden="true"></i>
+              <!-- cart count label, initially empty, will be updated by js/cart.js-->
+              <span id="cart-count">0</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <header class="about-page-hero">
+        <h1 class="about-page-hero__title">About us</h1>
+        <div class="about-page-hero__media">
+          <img
+            src="img/about.avif"
+            width="1600"
+            height="900"
+            alt="Inside JKPG Studio—prints, textiles, and studio goods from Jönköping"
+            loading="eager"
+          />
+        </div>
+      </header>
+
+      <p class="about-page-intro">
+        JKPG Studio is a small creative label rooted in Jönköping. We design and
+        curate souvenirs, prints, wearables, and studio goods that celebrate the
+        city—from Lake Vättern to the streets around Piren. Everything here is
+        meant to feel thoughtful, local, and easy to take home or gift to
+        someone who loves this place as much as we do.
+      </p>
+
+      <div class="about-page-split">
+        <section aria-labelledby="address-heading">
+          <h2 id="address-heading">Address</h2>
+          <p>Storgatan 30, 551 11 Jönköping, Sweden</p>
+        </section>
+        <section aria-labelledby="find-heading">
+          <h2 id="find-heading">Find us</h2>
+          <div class="about-page-map">
+            <iframe
+              title="Map of Jönköping city center"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=14.11%2C57.74%2C14.22%2C57.82&amp;layer=mapnik&amp;marker=57.7814%2C14.1568"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer site-footer--inverse" id="contact">
+      <div class="site-footer__inner">
+        <div class="site-footer__columns">
+          <nav aria-label="Company">
+            <h2>Company</h2>
+            <ul>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="Products">
+            <h2>Products</h2>
+            <ul>
+              <li>
+                <a href="category.html?category=city-archive">City archive</a>
+              </li>
+              <li><a href="category.html?category=studio">Studio goods</a></li>
+              <li>
+                <a href="category.html?category=wear-wall">Wear &amp; wall</a>
+              </li>
+              <li><a href="category.html?category=featured">Featured</a></li>
+            </ul>
+          </nav>
+          <nav aria-label="Services">
+            <h2>Services</h2>
+            <ul>
+              <li><a href="#">Custom prints</a></li>
+              <li><a href="#">Custom paintings</a></li>
+              <li><a href="#">B2B custom orders</a></li>
+            </ul>
+          </nav>
+          <div class="site-footer__contact">
+            <h2>Contact us</h2>
+            <p><a href="mailto:jkpg@studio.se">jkpg@studio.se</a></p>
+            <p><a href="tel:+11111111111">+111-111-111</a></p>
+            <p>Random Street, 30 555, Jönköping</p>
+          </div>
+        </div>
+        <div class="site-footer__bottom">
+          <div class="site-footer__social">
+            <h2>Follow us</h2>
+            <div class="site-footer__social-links">
+              <a href="#" aria-label="Instagram">
+                <i data-feather="instagram" aria-hidden="true"></i>
+              </a>
+              <a href="#" aria-label="Facebook">
+                <i data-feather="facebook" aria-hidden="true"></i>
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                <i data-feather="linkedin" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/feather-icons@4.29.0/dist/feather.min.js"></script>
+    <script>
+      feather.replace({ width: "1.25em", height: "1.25em" });
+    </script>
+    <script src="js/header-menu.js"></script>
+    <script src="js/cart.js"></script>
+  </body>
+</html>
